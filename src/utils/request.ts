@@ -25,7 +25,7 @@ AxiosInstance.interceptors.request.use(
 AxiosInstance.interceptors.response.use(
     (response) => {
         // 对响应数据做点什么
-        console.log('响应拦截器', response);
+        // console.log('响应拦截器', response);
         return response;
     },
     (error) => {
